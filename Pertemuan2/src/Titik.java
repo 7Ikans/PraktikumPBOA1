@@ -108,22 +108,20 @@ public class Titik {
         return (int) t;
     }
 
-    int refleksiX() {
-        ordinat = -1 * ordinat;
-        return (int) ordinat;
+    void refleksiX() {
+        this.ordinat = -1 * this.ordinat;
     }
 
-    int refleksiY() {
-        absis = -1 * absis;
-        return (int) absis;
+    void refleksiY() {
+        this.absis = -1 * this.absis;
     }
 
-    int getRefleksiX() {
-        return (int) (-1 * ordinat);
+    Titik getRefleksiX() {
+        return new Titik(this.absis, -1 * this.ordinat);
     }
 
-    int getRefleksiY() {
-        return (int) (-1 * absis);
+    Titik getRefleksiY() {
+        return new Titik(-1 * this.absis, this.ordinat);
     }
 
     // Mencetak koordinat titik
