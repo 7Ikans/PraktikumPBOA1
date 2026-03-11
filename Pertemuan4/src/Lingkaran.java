@@ -27,7 +27,7 @@ public class Lingkaran extends BangunDatar {
     }
 
     @Override
-    public void printInfo() {
+    public final void printInfo() {
         super.printInfo(); 
         System.out.println("Jari-jari: " + jari);
     }

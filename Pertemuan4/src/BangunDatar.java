@@ -1,7 +1,7 @@
 public class BangunDatar {
-    private int jmlSisi;
-    private String warna;
-    private String border;
+    protected int jmlSisi;
+    protected String warna;
+    protected String border;
     private static int counterBangunDatar = 0;
 
     public BangunDatar() {
@@ -48,4 +48,6 @@ public class BangunDatar {
         System.out.println("Warna: " + warna);
         System.out.println("Border: " + border);
     }
+
+    /* jika menggunakan final akan mengalami error kompilasi karena subkelas tidak diizinkan untuk mendefinisikan ulang (override) method yang bersifat final dari superclass */
 }
