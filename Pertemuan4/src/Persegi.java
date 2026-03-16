@@ -31,7 +31,7 @@ public class Persegi extends BangunDatar {
     }
 
     @Override
-    public final void printInfo() {
+    public void printInfo() {
         super.printInfo();
         System.out.println("Sisi: " + sisi);
     }
