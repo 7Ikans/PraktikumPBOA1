@@ -34,3 +34,4 @@ public class Tendik extends Pegawai {
         System.out.println("Tunjangan       : 1% x " + masaKerja.getYears() + " x " + formatRupiah(gajiPokok) + " = " + formatRupiah(tunjangan));
     }
 }
+
