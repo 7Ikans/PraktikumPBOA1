@@ -25,7 +25,7 @@ public class Petani extends Manusia implements Pajak {
 
     @Override
     public double hitungPajak() {
-        return 0; // Pajak petani 0
+        return 0; 
     }
 
     @Override
